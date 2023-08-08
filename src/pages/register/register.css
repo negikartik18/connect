@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700;800;900&display=swap');
+
+.register{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d5e2f5;
+}
+
+.register-wrapper{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.register-left{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.register-right{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.register-logo{
+    margin-bottom: 0.75rem;
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: 'Inconsolata', monospace;
+    color: #1775ee;
+    text-align: center;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+}
+
+.register-desc{
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0.15rem;
+    text-align: center;
+}
+
+.register-box{
+    padding: 1.25rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.register-input{
+    height: 2.5rem;
+    width: 25rem;
+    margin: 1rem 0;
+    padding-left: 1rem;
+    border-radius: 12px;
+    font-size: 0.85rem;
+    border: 1px solid gray;
+}
+
+.register-input:focus{
+    outline: none;
+    border: 2px solid #1775ee;
+}
+
+.register-btn{
+    margin-top: 0.75rem;
+    height: 2.5rem;
+    font-size: 1.15rem;
+    font-weight: 600;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #1775ee;
+}
+
+.or-option{
+    margin: 0.75rem 0;
+    text-align: center;
+    font-weight: 400;
+    color: gray;
+}
+
+.login-register-btn{
+    height: 50px;
+    font-size: 1.15rem;
+    font-weight: 600;
+    border-radius: 12px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #42b72a;
+}
